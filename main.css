@@ -1,0 +1,100 @@
+html,
+body {
+	margin: 0;
+	justify-content: center;
+	font-family: 'Source Serif Pro', serif;
+}
+
+.navbar {
+	background-color: #0C2B57;
+	color: white;
+}
+
+.linkbar {
+	background-color: #4b6283;
+	color: white;
+}
+
+section {
+	display: block;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	height: auto;
+}
+
+p {
+	margin: 0.25rem !important;
+	padding-top: 0.25rem;
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	object-fit: contain;
+}
+
+.col {
+	display: block;
+	flex-basis: 0;
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin: 0;
+	padding: 0.25rem;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: auto;
+}
+
+.col.is-1 {
+	flex: none;
+	width: 10%;
+}
+
+.col.is-2 {
+	flex: none;
+	width: 20%;
+}
+
+.col.is-3 {
+	flex: none;
+	width: 30%;
+}
+
+.col.is-4 {
+	flex: none;
+	width: 40%;
+}
+
+.col.is-5 {
+	flex: none;
+	width: 50%;
+}
+
+.col.is-6 {
+	flex: none;
+	width: 60%;
+}
+
+.col.is-7 {
+	flex: none;
+	width: 70%;
+}
+
+.col.is-8 {
+	flex: none;
+	width: 80%;
+}
+
+.col.is-9 {
+	flex: none;
+	width: 90%;
+}
+
+.col.is-10 {
+	flex: none;
+	width: 100%;
+}
+
+.is-offset-1 {
+	margin-left: 10%; }
+}
